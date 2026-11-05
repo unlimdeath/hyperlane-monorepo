@@ -1,5 +1,20 @@
 # @hyperlane-xyz/tron-sdk
 
+## 26.0.3
+
+### Patch Changes
+
+- Updated dependencies [048d1f3]
+- Updated dependencies [f265d2f]
+- Updated dependencies [e48ffe7]
+- Updated dependencies [4623acb]
+- Updated dependencies [8868234]
+- Updated dependencies [02c6ef4]
+- Updated dependencies [2bc0b3e]
+  - @hyperlane-xyz/core@12.3.0
+  - @hyperlane-xyz/utils@45.2.0
+  - @hyperlane-xyz/provider-sdk@11.0.3
+
 ## 26.0.2
 
 ### Patch Changes

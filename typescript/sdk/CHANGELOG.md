@@ -1,5 +1,31 @@
 # @hyperlane-xyz/sdk
 
+## 45.2.0
+
+### Minor Changes
+
+- fe5dfda: Added the initial 1-of-1 Abacus Works Elysium validator set for deployment testing.
+
+### Patch Changes
+
+- f265d2f: Token fee support was disabled for ERC4626, fiat token, xERC20, and xERC20 lockbox routers. Configured token fees caused quotes and outbound transfers to revert until the fee recipient was removed. The SDK rejected unsupported token fee deployments and fee hooks on incompatible router types, including when fee hook update transactions were built directly, rejected adding token fees to xERC20 and xERC20 lockbox routers without an existing fee regardless of the requested contract version, allowed existing fees on those routers to be updated or removed, and required fee removal before upgrading them.
+- Updated dependencies [048d1f3]
+- Updated dependencies [f265d2f]
+- Updated dependencies [e48ffe7]
+- Updated dependencies [4623acb]
+- Updated dependencies [8868234]
+- Updated dependencies [02c6ef4]
+- Updated dependencies [2bc0b3e]
+  - @hyperlane-xyz/core@12.3.0
+  - @hyperlane-xyz/tron-sdk@26.0.3
+  - @hyperlane-xyz/deploy-sdk@11.0.3
+  - @hyperlane-xyz/aleo-sdk@45.2.0
+  - @hyperlane-xyz/starknet-core@45.2.0
+  - @hyperlane-xyz/cosmos-sdk@45.2.0
+  - @hyperlane-xyz/radix-sdk@45.2.0
+  - @hyperlane-xyz/utils@45.2.0
+  - @hyperlane-xyz/provider-sdk@11.0.3
+
 ## 45.1.0
 
 ### Minor Changes
